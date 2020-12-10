@@ -1,0 +1,60 @@
+/* social-media-navbar */ 
+
+.social-media-navbar {
+    height: 100%;
+    width: 45px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-navbar div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#email {
+    writing-mode: vertical-rl; 
+    color: var(--navbar-mobile);
+    font-size: 10pt;
+    font-weight: 500;
+    margin: 0;
+    padding: 55px 0;
+}
+
+#social_media_group {
+    padding: 26px 0;
+}
+
+.social_media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin-bottom: 30px;
+}
+
+.social_media img {
+    width: 100%;
+    height: auto;
+}
+
+#linkedin {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .social-media-navbar {
+        display: none;
+    }
+}

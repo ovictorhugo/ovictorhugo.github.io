@@ -1,0 +1,7 @@
+[1205/192313.479:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1205/214941.332:ERROR:process_info.cc(329)] VirtualQueryEx: Acesso negado. (0x5)
+[1205/214941.332:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1205/214941.332:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[1208/170318.323:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1210/100835.705:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1210/105616.995:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

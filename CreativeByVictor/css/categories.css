@@ -1,0 +1,40 @@
+.item {
+    width: auto;
+    display: inline-block;
+
+    margin-right: 10px;
+}
+
+.item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+}
+
+.imagem_item {
+    width: 110px;
+    height: 110px;
+    background-color: var(--background-secondary);
+    border-radius: 7px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem_item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.item p {
+    color: var(--text-color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
